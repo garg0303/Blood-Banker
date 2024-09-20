@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Red"
+    tools:ignore="ExtraText">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="Give the gift of life by donation your blood.   "
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:layout_width="357dp"
+        android:layout_height="248dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/bd6" />
+    <EditText
+        android:id="@+id/etDonorName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="   Full Name"
+        android:layout_marginTop="400dp"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/etBloodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="   Blood Group"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/etDonorName"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="   Location"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/etBloodGroup"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    />
+
+    <Button
+        android:id="@+id/btnSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/etLocation"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
